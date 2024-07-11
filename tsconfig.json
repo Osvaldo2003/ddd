@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                  /* Indica la versión de ECMAScript objetivo */
+    "module": "commonjs",                /* Tipo de módulo para la generación de código */
+    "strict": true,                      /* Habilita todas las restricciones estrictas de TypeScript */
+    "esModuleInterop": true,             /* Habilita la interoperabilidad de módulos */
+    "skipLibCheck": true,                /* Omitir la comprobación de archivos de definición de librerías */
+    "forceConsistentCasingInFileNames": true, /* Asegura consistencia en nombres de archivo */
+    "outDir": "./dist",                  /* Directorio de salida para archivos compilados */
+    "rootDir": "./src",                  /* Directorio raíz de archivos fuente */
+    "resolveJsonModule": true,           /* Habilita la resolución de módulos JSON */
+    "strictNullChecks": true,            /* Habilita comprobaciones estrictas de valores nulos */
+    "noImplicitAny": true,               /* Evita la inferencia de tipo 'any' */
+    "baseUrl": ".",                      /* Base URL para la resolución de módulos */
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],           /* Archivos que deben incluirse en la compilación */
+  "exclude": ["node_modules"]           /* Archivos y directorios a excluir de la compilación */
+}
